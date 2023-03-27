@@ -1,0 +1,60 @@
+uuid: 7f33f259-d0b7-49d7-b229-f9d96d685bed
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.marc_xml.field_media_file
+    - field.field.media.marc_xml.field_media_of
+    - field.field.media.marc_xml.field_media_use
+    - image.style.thumbnail
+    - media.type.marc_xml
+  module:
+    - image
+    - user
+id: media.marc_xml.default
+targetEntityType: media
+bundle: marc_xml
+mode: default
+content:
+  created:
+    type: timestamp
+    label: hidden
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_media_use:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  uid:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_media_file: true
+  field_media_of: true
+  langcode: true
+  name: true
+  search_api_excerpt: true

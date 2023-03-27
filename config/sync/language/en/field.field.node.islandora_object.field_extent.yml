@@ -1,0 +1,5 @@
+label: Extent
+description: 'The size or duration of the resource in its original form. Extent of representations of the resource stored in Islandora should be recorded on the relevant Media files.'
+default_value:
+  -
+    value: '1 item'

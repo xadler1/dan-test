@@ -1,0 +1,19 @@
+uuid: 926308cd-d54f-4dc2-b848-dc436a3fabd4
+langcode: cs
+status: true
+dependencies: {  }
+id: node__book
+label: 'Obsah: Book'
+tags:
+  dcterms_rights: '[node:field_rights]'
+  dcterms_relation: '[lindat:media_urls]'
+  dcterms_type: book
+  dcterms_language: '[node:langcode]'
+  dcterms_date: '[node:field_published:value]'
+  dcterms_identifier: '[node:url:absolute]'
+  dcterms_publisher: '[node:field_publisher]'
+  dcterms_creator: '[node:field_author]'
+  dcterms_description: '[node:field_citation]'
+  dcterms_subject: '[node:field_keywords]'
+  dcterms_title: '[node:title]'
+  dcterms_bibliographic_citation: '[node:field_citation]'

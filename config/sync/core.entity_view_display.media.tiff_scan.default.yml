@@ -1,0 +1,60 @@
+uuid: da25e491-aa2f-48ea-b8f1-4dae2b25a620
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.tiff_scan.field_media_file
+    - field.field.media.tiff_scan.field_media_of
+    - field.field.media.tiff_scan.field_media_use
+    - image.style.thumbnail
+    - media.type.tiff_scan
+  module:
+    - image
+    - user
+id: media.tiff_scan.default
+targetEntityType: media
+bundle: tiff_scan
+mode: default
+content:
+  created:
+    type: timestamp
+    label: hidden
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_media_use:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  uid:
+    type: author
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_media_file: true
+  field_media_of: true
+  langcode: true
+  name: true
+  search_api_excerpt: true

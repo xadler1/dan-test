@@ -1,0 +1,2 @@
+label: Form
+description: 'The physical format of the original resource being described. If the resource is a physical object, the physical form is recorded here. If the resource is born-digital, the original digital form is recorded here. Details of the formats of resource representations stored in Islandora should be recorded on the relevant Media files. '

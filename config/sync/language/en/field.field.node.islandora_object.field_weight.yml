@@ -1,0 +1,2 @@
+label: 'Custom Sort Value'
+description: 'Enter numeric values to force a custom sort order within a collection of resources. See <a href="https://www.drupal.org/node/307797">external documentation for the <i>Weight</i> module</a>. '

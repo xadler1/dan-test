@@ -1,0 +1,46 @@
+uuid: 6cb358cf-dc70-41d0-a9a4-88181e19aa9c
+langcode: cs
+status: true
+dependencies:
+  config:
+    - views.view.search_content
+  module:
+    - context
+    - islandora
+    - system
+    - views
+  theme:
+    - carapace
+id: exposedformsearch_contentpage_1
+theme: carapace
+region: sidebar_second
+weight: -19
+provider: null
+plugin: 'views_exposed_filter_block:search_content-page_1'
+settings:
+  id: 'views_exposed_filter_block:search_content-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility:
+  view_inclusion:
+    id: view_inclusion
+    negate: null
+    context_mapping: {  }
+    view_inclusion: {  }
+  request_path_exclusion:
+    id: request_path_exclusion
+    negate: null
+    context_mapping: {  }
+    pages: ''
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '<front>'

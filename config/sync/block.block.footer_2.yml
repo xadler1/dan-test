@@ -1,0 +1,48 @@
+uuid: f111a9b6-48bf-4f3d-b0e5-a4eb004f3416
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.footer
+  module:
+    - context
+    - islandora
+    - simple_block
+  theme:
+    - carapace
+id: footer_2
+theme: carapace
+region: footer_first
+weight: 0
+provider: null
+plugin: 'simple_block:footer'
+settings:
+  id: 'simple_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: simple_block
+visibility:
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  context:
+    id: context
+    negate: null
+    values: ''
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }

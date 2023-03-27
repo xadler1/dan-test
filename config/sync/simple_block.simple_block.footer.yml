@@ -1,0 +1,11 @@
+uuid: ffc554f1-21af-4cbf-9845-e0a43c90e60f
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: footer
+title: Footer
+content:
+  value: "<p>© 2022 <a href=\"https://muni.cz/\">Masaryk University</a><br />\r\n<a href=\"https://dan-devel.phil.muni.cz/contact\">Webmaster</a> | <a class=\"mc-open-dialog\" href=\"#\">Cookies</a></p>\r\n"
+  format: full_html

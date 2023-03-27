@@ -1,0 +1,84 @@
+uuid: de3e555c-65bf-478f-8c2b-01a5e1a59908
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.author.body
+    - field.field.node.author.field_name
+    - node.type.author
+  module:
+    - text
+    - user
+id: node.author.teaser
+targetEntityType: node
+bundle: author
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  display_media_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_entity_view_2:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_service_file:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  display_media_thumbnail:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  openseadragon_media_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  openseadragon_media_evas_entity_view_2:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  openseadragon_media_evas_service_file:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  pdfjs_media_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  pdfjs_media_evas_entity_view_2:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  pdfjs_media_evas_service_file:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+hidden:
+  field_name: true
+  langcode: true
+  search_api_excerpt: true

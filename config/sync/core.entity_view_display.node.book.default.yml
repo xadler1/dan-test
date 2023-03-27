@@ -1,0 +1,173 @@
+uuid: 7431ce15-8a34-4b13-baf2-29a2c75736c6
+langcode: cs
+status: true
+dependencies:
+  config:
+    - field.field.node.book.field_author
+    - field.field.node.book.field_citation
+    - field.field.node.book.field_contents
+    - field.field.node.book.field_description
+    - field.field.node.book.field_identifier
+    - field.field.node.book.field_keywords
+    - field.field.node.book.field_member_of
+    - field.field.node.book.field_model
+    - field.field.node.book.field_pid
+    - field.field.node.book.field_published
+    - field.field.node.book.field_publisher
+    - field.field.node.book.field_rights
+    - field.field.node.book.field_sysno
+    - field.field.node.book.field_title_page
+    - field.field.node.book.field_type
+    - node.type.book
+  module:
+    - field_group
+    - taxonomy
+    - user
+third_party_settings:
+  field_group:
+    group_metadata:
+      children:
+        - field_published
+        - field_publisher
+        - field_description
+        - field_type
+        - field_keywords
+        - field_rights
+        - part_citation_entity_view_1
+      label: Metadata
+      parent_name: ''
+      region: content
+      weight: 2
+      format_type: tabs
+      format_settings:
+        classes: ''
+        id: ''
+        direction: vertical
+    group_pdf:
+      children:
+        - pdfjs_media_evas_entity_view_1
+      label: 'Open PDF'
+      parent_name: ''
+      region: content
+      weight: 1
+      format_type: details
+      format_settings:
+        classes: ''
+        id: ''
+        open: false
+        description: ''
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  book_files_download_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  book_pages_grid_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_author:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings:
+      field_delimiter:
+        delimiter: ',&nbsp;'
+    weight: 0
+    region: content
+  field_description:
+    type: basic_string
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_keywords:
+    type: entity_reference_rss_category
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_published:
+    type: number_decimal
+    label: inline
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 0
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_publisher:
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_rights:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_type:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  katalog_muni_url_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  part_citation_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  pdfjs_media_evas_entity_view_1:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  book_citation_book_eva_citation: true
+  book_citation_entity_view_1: true
+  display_media_entity_view_1: true
+  display_media_entity_view_2: true
+  display_media_service_file: true
+  display_media_thumbnail: true
+  eva_ocr_text_entity_view_1: true
+  field_citation: true
+  field_contents: true
+  field_identifier: true
+  field_member_of: true
+  field_model: true
+  field_pid: true
+  field_sysno: true
+  field_title_page: true
+  islandora_fits_checksum: true
+  langcode: true
+  links: true
+  openseadragon_media_evas_entity_view_1: true
+  openseadragon_media_evas_entity_view_2: true
+  openseadragon_media_evas_service_file: true
+  part_citation_entity_view_2: true
+  pdfjs_media_evas_entity_view_2: true
+  pdfjs_media_evas_service_file: true
+  search_api_excerpt: true

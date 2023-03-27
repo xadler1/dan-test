@@ -1,0 +1,19 @@
+uuid: 916313c1-c325-48d1-bc17-9aa733b73067
+langcode: cs
+status: true
+dependencies: {  }
+id: node__part
+label: 'Obsah: Part'
+tags:
+  dcterms_rights: '[node:field_book:entity:field_rights]'
+  dcterms_relation: '[lindat:media_urls]'
+  dcterms_type: book_part
+  dcterms_language: '[node:langcode]'
+  dcterms_source: '[node:field_book:entity:url]'
+  dcterms_date: '[node:field_published:value]'
+  dcterms_identifier: '[node:url:absolute]'
+  dcterms_publisher: '[node:field_book:entity:field_publisher]'
+  dcterms_creator: '[node:field_author]'
+  dcterms_description: '[node:field_citation]'
+  dcterms_subject: '[node:field_keywords]'
+  dcterms_title: '[node:title]'

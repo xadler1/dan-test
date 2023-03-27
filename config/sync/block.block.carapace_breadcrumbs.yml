@@ -1,0 +1,39 @@
+uuid: d788ef27-59ad-432d-86d3-f60672f73b13
+langcode: cs
+status: false
+dependencies:
+  module:
+    - context
+    - islandora
+    - system
+  theme:
+    - carapace
+_core:
+  default_config_hash: 6rcz_yGFLgo_lZvnRlBgwBAIeej_i2WaVixQIyWdfhI
+id: carapace_breadcrumbs
+theme: carapace
+region: content_prefix
+weight: -15
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  view_inclusion:
+    id: view_inclusion
+    negate: null
+    context_mapping: {  }
+    view_inclusion: {  }
+  request_path_exclusion:
+    id: request_path_exclusion
+    negate: null
+    context_mapping: {  }
+    pages: ''
+  media_source_mimetype:
+    id: media_source_mimetype
+    negate: false
+    context_mapping: {  }
+    mimetype: ''

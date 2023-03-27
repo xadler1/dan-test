@@ -1,0 +1,6 @@
+third_party_settings:
+  field_group:
+    group_descriptive:
+      label: General
+    group_structure:
+      label: System

@@ -1,0 +1,12 @@
+uuid: 463bcc1d-55b3-4545-a4b1-5b0ffef4c883
+langcode: cs
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Titulní stránka'
+tags:
+  title: '[site:name]: Homepage'
+  shortlink: '[site:url]'
+  canonical_url: '[site:url]'

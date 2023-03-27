@@ -1,0 +1,15 @@
+uuid: e094ba3c-415b-47b8-b209-8bc201f6fcf2
+langcode: cs
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Globální
+tags:
+  abstract: "(CS): Digitální knihovna obsahuje monografie Arna Nováka a díla, ke kterým napsal úvod nebo doslov a u kterých autorský zákon umožňuje volné zpřístupnění. Najdete v ní díla Arna Nováka i dalších autorů. Provozována je na Filozofické fakultě Masarykovy univerzity.\r\n(EN): The Digital Library contains Arne Novák’s monographs and those works which he wrote an introduction or an epilogue for, subject to free accessibility under the Copyright Act. It contains works of Arne Novák as well as works of other authors. It operates at the Faculty of Arts, Masaryk University."
+  canonical_url: '[current-page:url]'
+  description: 'Arne Novák digital library.'
+  keywords: 'Arne Novák,digital library,monographs'
+  title: '[current-page:title] | [site:name]'
+  google_site_verification: yJjiVRaPQ6QJO8Au5DLPUY--pJyTJa3apjGTL7FQQRk

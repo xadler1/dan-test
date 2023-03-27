@@ -1,0 +1,27 @@
+uuid: 77fb6e22-7a84-4324-a14f-46ebac5a5aea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_file
+    - media.type.book_text
+  module:
+    - file
+id: media.book_text.field_media_file
+field_name: field_media_file
+entity_type: media
+bundle: book_text
+label: File
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: books/text
+  file_extensions: 'txt doc docx pdf'
+  max_filesize: ''
+  description_field: false
+field_type: file

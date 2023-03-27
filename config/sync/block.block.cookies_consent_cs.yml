@@ -1,0 +1,61 @@
+uuid: db5027cc-d93c-4ed0-a9e9-81f9622e7d55
+langcode: en
+status: true
+dependencies:
+  config:
+    - simple_block.simple_block.cookies_consent_cs
+  module:
+    - context
+    - islandora
+    - language
+    - simple_block
+    - system
+  theme:
+    - carapace
+id: cookies_consent_cs
+theme: carapace
+region: footer_third
+weight: -19
+provider: null
+plugin: 'simple_block:cookies_consent_cs'
+settings:
+  id: 'simple_block:cookies_consent_cs'
+  label: cookies_consent_cs
+  label_display: '0'
+  provider: simple_block
+visibility:
+  context_all:
+    id: context_all
+    negate: null
+    values: ''
+  user_status:
+    id: user_status
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    user_status:
+      viewing_profile: '0'
+      logged_viewing_profile: '0'
+      own_page_true: '0'
+      field_value: '0'
+    user_fields: uid
+  context:
+    id: context
+    negate: null
+    values: ''
+  media_source_mimetype:
+    id: media_source_mimetype
+    mimetype: ''
+    negate: false
+    context_mapping: {  }
+  language:
+    id: language
+    negate: false
+    context_mapping:
+      language: '@language.current_language_context:language_interface'
+    langcodes:
+      cs: cs
+  request_path:
+    id: request_path
+    negate: true
+    pages: "/admin\r\n/admin/*\r\n/batch\r\n/node/add*\r\n/user/*/*"

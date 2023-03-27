@@ -1,0 +1,22 @@
+rest_oai_pmh:
+  entity_type: node
+view_displays:
+  'oai_pmh:book_parts': 'oai_pmh:book_parts'
+  'oai_pmh:books': 'oai_pmh:books'
+  'oai_pmh:titles': 'oai_pmh:titles'
+support_sets: 1
+mapping_source: rdf
+repository_name: 'Digitální knihovna Arne Nováka'
+repository_email: kic_admins@ics.muni.cz
+expiration: '3600'
+metadata_map_plugins:
+  -
+    label: oai_dc
+    value: dublin_core_metatag
+  -
+    label: oai_raw
+    value: ''
+_core:
+  default_config_hash: bzVgxAW8qL_RR1YMiABMUohoPHQnkYmISP5yyKAF0Qc
+langcode: cs
+cache_technique: conservative_cache

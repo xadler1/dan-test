@@ -1,0 +1,59 @@
+uuid: 5e2c15fe-bac2-4d5b-b5ad-ab97bb04274b
+langcode: cs
+status: true
+dependencies:
+  module:
+    - system
+label: 'Stats (About page)'
+name: stats_about_page_
+group: DAN
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    negate: false
+    uuid: a9655806-d9f4-47d3-9a26-7c2523a6be69
+    context_mapping: {  }
+    pages: "/about*\r\n/en/about*"
+reactions:
+  blocks:
+    id: blocks
+    uuid: c41b85f8-f41d-47b4-aa43-3fa39f703942
+    blocks:
+      de0ea17b-cb6d-4ab9-8e50-8a0ed693f265:
+        uuid: de0ea17b-cb6d-4ab9-8e50-8a0ed693f265
+        id: 'views_block:media_stats-block_1'
+        label: ''
+        provider: views
+        label_display: '0'
+        region: content_suffix
+        weight: '0'
+        custom_id: views_block_media_stats_block_1
+        theme: carapace
+        css_class: ''
+        unique: 0
+        context_id: stats_about_page_
+        context_mapping: {  }
+        views_label: ''
+        items_per_page: none
+      0b40365f-0350-4749-84f4-ecaa64f4e6d2:
+        uuid: 0b40365f-0350-4749-84f4-ecaa64f4e6d2
+        id: 'views_block:stats_content-block_1'
+        label: ''
+        provider: views
+        label_display: '0'
+        region: content_suffix
+        weight: '0'
+        custom_id: views_block_stats_content_block_1
+        theme: carapace
+        css_class: ''
+        unique: 0
+        context_id: stats_about_page_
+        context_mapping: {  }
+        views_label: ''
+        items_per_page: none
+    include_default_blocks: 1
+    saved: false
+weight: 0
