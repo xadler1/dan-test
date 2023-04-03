@@ -3,7 +3,7 @@ _core:
 langcode: cs
 uuid: ff3224dd-cf0b-4f3a-bf77-efd80bdf97ec
 name: ' Digitální knihovna Arna Nováka'
-mail: kic_admins@ics.muni.cz
+mail:
 slogan: ''
 page:
   403: ''
