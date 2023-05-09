@@ -58,7 +58,7 @@ third_party_settings:
         - field_display_hints
         - field_pid
         - field_weight
-      label: System
+      label: Systém
       region: content
       parent_name: ''
       weight: 1

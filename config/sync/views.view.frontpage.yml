@@ -16,7 +16,7 @@ dependencies:
 _core:
   default_config_hash: Xk6puCoRlHSJG8mU9Zg2iN4fbnzaw2dFolwMfpWxDSE
 id: frontpage
-label: Frontpage
+label: 'Titulní strana'
 module: node
 description: 'All content promoted to the front page.'
 tag: default
@@ -652,7 +652,7 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Použít
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Řadit dle'
@@ -677,7 +677,7 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: 'No front page content has been created yet.<br/>Follow the <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">User Guide</a> to start building your site.'
+          content: 'Pro hlavní stranu zatím neexistuje žádný obsah. Instrukce pro přidání obsahu najdete v <a target="_blank" href="https://www.drupal.org/docs/user_guide/en/index.html">uživatelské příručce</a>.'
           tokenize: false
         node_listing_empty:
           id: node_listing_empty
@@ -930,7 +930,7 @@ display:
         - 'config:field.storage.node.field_page_weight'
   feed_1:
     id: feed_1
-    display_title: Feed
+    display_title: Zdroj
     display_plugin: feed
     position: 2
     display_options:

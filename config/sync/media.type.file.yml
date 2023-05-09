@@ -8,7 +8,7 @@ dependencies:
 _core:
   default_config_hash: Bbqs548topJBjmN7VGStPCuGeZesU--oawavZgrYd90
 id: file
-label: File
+label: Soubor
 description: 'Use local files for reusable media.'
 source: file
 queue_thumbnail_downloads: false

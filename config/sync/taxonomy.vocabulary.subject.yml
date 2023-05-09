@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: FbKJCP8hHad8W3AR8WNWA56OJD--aW9qGrqTzyIMVDM
-name: Subject
+name: Předmět
 vid: subject
 description: 'Subject matter to which the records pertain, such as topics, events, people, and organizations.'
 weight: 0

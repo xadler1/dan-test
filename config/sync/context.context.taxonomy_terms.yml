@@ -9,7 +9,7 @@ dependencies:
       - islandora_defaults
 _core:
   default_config_hash: 6RXlwQmbN073bHOiyMIfbdyUvCyjEXjfxpr65b_1ssg
-label: 'Taxonomy Terms'
+label: 'Termíny taxonomie'
 name: taxonomy_terms
 group: Indexing
 description: 'All taxonomy terms'

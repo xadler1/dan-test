@@ -13,7 +13,7 @@ _core:
 id: taxonomy_term
 label: 'Termín taxonomie'
 module: taxonomy
-description: 'Content belonging to a certain taxonomy term.'
+description: 'Obsah přiřazený k určitému termínu taxonomie.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -40,13 +40,13 @@ display:
             items_per_page_label: 'Položek na stránku'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Vše -'
             offset: false
-            offset_label: Offset
+            offset_label: Posun
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Použít
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Řadit dle'
@@ -102,7 +102,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: All
+            title: Vše
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed
@@ -261,7 +261,7 @@ display:
       tags: {  }
   feed_1:
     id: feed_1
-    display_title: Feed
+    display_title: Zdroj
     display_plugin: feed
     position: 2
     display_options:
@@ -299,7 +299,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Stránka
     display_plugin: page
     position: 1
     display_options:

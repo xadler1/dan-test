@@ -14,7 +14,7 @@ id: media.file.field_mime_type
 field_name: field_mime_type
 entity_type: media
 bundle: file
-label: 'MIME type'
+label: 'Typ MIME'
 description: 'MIME type of the underlying file'
 required: false
 translatable: false

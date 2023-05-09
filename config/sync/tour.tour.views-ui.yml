@@ -39,7 +39,7 @@ tips:
   views-ui-format:
     id: views-ui-format
     plugin: text
-    label: 'Output format'
+    label: 'Výstupní formát'
     weight: 4
     selector: .views-ui-display-tab-bucket.format
     body: 'Choose how to output results. E.g., choose <em>Content</em> to output each item completely, using your configured display settings. Or choose <em>Fields</em>, which allows you to output only specific fields for each result. Additional formats can be added by installing modules to <em>extend</em> Drupal''s base functionality.'
@@ -60,24 +60,24 @@ tips:
   views-ui-filter-operations:
     id: views-ui-filter-operations
     plugin: text
-    label: 'Filter actions'
+    label: 'Filtrovat akce'
     weight: 7
     selector: '.views-ui-display-tab-bucket.filter .dropbutton-widget'
-    body: 'Add, rearrange or remove filters.'
+    body: 'Přidat, uspořádat nebo odstranit filtry.'
   views-ui-sorts:
     id: views-ui-sorts
     plugin: text
-    label: 'Sort Criteria'
+    label: 'Kritéria řazení'
     weight: 8
     selector: .views-ui-display-tab-bucket.sort
     body: 'Control the order in which the results are output. Click on an active sort rule to configure it.'
   views-ui-sorts-operations:
     id: views-ui-sorts-operations
     plugin: text
-    label: 'Sort actions'
+    label: 'Seřadit akce'
     weight: 9
     selector: '.views-ui-display-tab-bucket.sort .dropbutton-widget'
-    body: 'Add, rearrange or remove sorting rules.'
+    body: 'Přidat, uspořádat nebo odstranit pravidla řazení.'
   views-ui-preview:
     id: views-ui-preview
     plugin: text

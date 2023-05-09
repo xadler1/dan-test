@@ -10,7 +10,7 @@ id: node.islandora_object.sticky
 field_name: sticky
 entity_type: node
 bundle: islandora_object
-label: 'Sticky at top of lists'
+label: 'Přilepit nahoru v seznamu'
 description: ''
 required: false
 translatable: false
@@ -19,6 +19,6 @@ default_value:
     value: 0
 default_value_callback: ''
 settings:
-  on_label: 'On'
-  off_label: 'Off'
+  on_label: Zapnuto
+  off_label: Vypnuto
 field_type: boolean

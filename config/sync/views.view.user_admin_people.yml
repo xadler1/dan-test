@@ -7,9 +7,9 @@ dependencies:
 _core:
   default_config_hash: J5EbGNdz0YUaSIYKwomyFSOtZjsV9TrBA3qdb3ZwBS0
 id: user_admin_people
-label: People
+label: Uživatelé
 module: user
-description: 'Find and manage people interacting with your site.'
+description: 'Hledat a administrovat uživatele webu.'
 tag: default
 base_table: users_field_data
 base_field: uid
@@ -20,7 +20,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: People
+      title: Uživatelé
       fields:
         user_bulk_form:
           id: user_bulk_form
@@ -31,7 +31,7 @@ display:
           admin_label: ''
           entity_type: user
           plugin_id: user_bulk_form
-          label: 'Bulk update'
+          label: 'Hromadná aktualizace'
           exclude: false
           alter:
             alter_text: false
@@ -178,7 +178,7 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_false: Blocked
+            format_custom_false: Zablokován
             format_custom_true: Aktivní
         roles_target_id:
           id: roles_target_id
@@ -188,7 +188,7 @@ display:
           group_type: group
           admin_label: ''
           plugin_id: user_roles
-          label: Roles
+          label: Role
           exclude: false
           alter:
             alter_text: false
@@ -241,7 +241,7 @@ display:
           entity_type: user
           entity_field: created
           plugin_id: field
-          label: 'Member for'
+          label: 'Účet existuje již'
           exclude: false
           alter:
             alter_text: false
@@ -297,7 +297,7 @@ display:
           entity_type: user
           entity_field: access
           plugin_id: field
-          label: 'Last access'
+          label: 'Poslední přístup'
           exclude: false
           alter:
             alter_text: false
@@ -466,18 +466,18 @@ display:
           total_pages: 0
           id: 0
           tags:
-            next: 'Next ›'
-            previous: '‹ Previous'
-            first: '« First'
-            last: 'Last »'
+            next: 'Následující ›'
+            previous: '‹ Předchozí'
+            first: '« První'
+            last: 'Poslední »'
           expose:
             items_per_page: false
             items_per_page_label: 'Položek na stránku'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Vše -'
             offset: false
-            offset_label: Offset
+            offset_label: Posun
           quantity: 9
       exposed_form:
         type: basic
@@ -505,7 +505,7 @@ display:
           admin_label: ''
           plugin_id: text_custom
           empty: true
-          content: 'No people available.'
+          content: 'Žádní lidé nejsou k dispozici.'
           tokenize: false
       sorts:
         created:
@@ -539,7 +539,7 @@ display:
           exposed: true
           expose:
             operator_id: combine_op
-            label: 'Name or email contains'
+            label: 'Jméno nebo email obsahuje'
             description: ''
             use_operator: false
             operator: combine_op
@@ -615,7 +615,7 @@ display:
                 operator: '='
                 value: '1'
               2:
-                title: Blocked
+                title: Zablokován
                 operator: '='
                 value: '0'
         roles_target_id:
@@ -674,7 +674,7 @@ display:
           exposed: true
           expose:
             operator_id: permission_op
-            label: Permission
+            label: Oprávnění
             description: ''
             use_operator: false
             operator: permission_op
@@ -877,7 +877,7 @@ display:
       show_admin_links: true
       use_more: false
       use_more_always: false
-      use_more_text: more
+      use_more_text: více
       link_display: page_1
       link_url: ''
       display_comment: ''
@@ -894,7 +894,7 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Stránka
     display_plugin: page
     position: 1
     display_options:
@@ -905,15 +905,15 @@ display:
       path: admin/people/list
       menu:
         type: 'default tab'
-        title: List
-        description: 'Find and manage people interacting with your site.'
+        title: Seznam
+        description: 'Hledat a administrovat uživatele webu.'
         weight: -10
         menu_name: admin
         context: ''
       tab_options:
         type: normal
-        title: People
-        description: 'Manage user accounts, roles, and permissions.'
+        title: Uživatelé
+        description: 'Spravovat uživatelské účty, role a oprávnění.'
         weight: 0
         menu_name: admin
     cache_metadata:

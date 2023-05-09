@@ -14,7 +14,7 @@ id: media.fits_technical_metadata.field_mime_type
 field_name: field_mime_type
 entity_type: media
 bundle: fits_technical_metadata
-label: 'MIME type'
+label: 'Typ MIME'
 description: ''
 required: false
 translatable: false

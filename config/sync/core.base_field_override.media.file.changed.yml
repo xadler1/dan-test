@@ -10,7 +10,7 @@ id: media.file.changed
 field_name: changed
 entity_type: media
 bundle: file
-label: Changed
+label: Změněno
 description: 'The time the media item was last edited.'
 required: false
 translatable: false

@@ -14,7 +14,7 @@ _core:
 id: content
 label: Obsah
 module: node
-description: 'Find and manage content.'
+description: 'Hledat a spravovat obsah.'
 tag: default
 base_table: node_field_data
 base_field: nid
@@ -277,8 +277,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_false: Unpublished
-            format_custom_true: Published
+            format_custom_false: Skryto
+            format_custom_true: Zveřejněno
         changed:
           id: changed
           table: node_field_data
@@ -286,7 +286,7 @@ display:
           entity_type: node
           entity_field: changed
           plugin_id: field
-          label: Updated
+          label: Aktualizováno
           exclude: false
           alter:
             alter_text: false
@@ -356,10 +356,10 @@ display:
         options:
           items_per_page: 50
           tags:
-            next: 'Next ›'
-            previous: '‹ Previous'
-            first: '« First'
-            last: 'Last »'
+            next: 'Následující ›'
+            previous: '‹ Předchozí'
+            first: '« První'
+            last: 'Poslední »'
       exposed_form:
         type: basic
         options:
@@ -383,7 +383,7 @@ display:
           field: area_text_custom
           plugin_id: text_custom
           empty: true
-          content: 'No content available.'
+          content: 'Žádný obsah není k dispozici.'
       sorts: {  }
       arguments: {  }
       filters:
@@ -504,7 +504,7 @@ display:
               authenticated: authenticated
           is_grouped: true
           group_info:
-            label: 'Published status'
+            label: 'Status zveřejnění'
             description: ''
             identifier: status
             optional: true
@@ -515,11 +515,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Zveřejněno
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: Skryto
                 operator: '='
                 value: '0'
         langcode:
@@ -694,7 +694,7 @@ display:
         - 'config:field.storage.node.field_published'
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Stránka
     display_plugin: page
     position: 1
     display_options:
@@ -710,7 +710,7 @@ display:
       tab_options:
         type: normal
         title: Obsah
-        description: 'Find and manage content'
+        description: 'Najít a spravovat obsah'
         weight: -10
         menu_name: admin
     cache_metadata:

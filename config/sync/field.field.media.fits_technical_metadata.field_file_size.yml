@@ -14,7 +14,7 @@ id: media.fits_technical_metadata.field_file_size
 field_name: field_file_size
 entity_type: media
 bundle: fits_technical_metadata
-label: 'File size'
+label: 'Velikost souboru'
 description: ''
 required: false
 translatable: false

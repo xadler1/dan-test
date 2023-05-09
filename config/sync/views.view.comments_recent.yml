@@ -9,9 +9,9 @@ dependencies:
 _core:
   default_config_hash: rX48v_U7vIh1FltSyJnTdpebtM-lj991qL_jO8BmZ2w
 id: comments_recent
-label: 'Recent comments'
+label: 'Poslední komentáře'
 module: views
-description: 'Recent comments.'
+description: 'Nejnovější komentáře.'
 tag: default
 base_table: comment_field_data
 base_field: cid
@@ -22,7 +22,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'Recent comments'
+      title: 'Poslední komentáře'
       fields:
         subject:
           id: subject
@@ -158,7 +158,7 @@ display:
           plugin_id: text_custom
           label: ''
           empty: true
-          content: 'No comments available.'
+          content: 'Bez komentářů.'
           tokenize: false
       sorts:
         created:
@@ -251,12 +251,12 @@ display:
       tags: {  }
   block_1:
     id: block_1
-    display_title: Block
+    display_title: Blok
     display_plugin: block
     position: 1
     display_options:
       display_extenders: {  }
-      block_description: 'Recent comments'
+      block_description: 'Poslední komentáře'
       block_category: 'Lists (Views)'
       allow:
         items_per_page: true

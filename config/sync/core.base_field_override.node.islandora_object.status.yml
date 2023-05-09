@@ -10,7 +10,7 @@ id: node.islandora_object.status
 field_name: status
 entity_type: node
 bundle: islandora_object
-label: Published
+label: Zveřejněno
 description: ''
 required: false
 translatable: false
@@ -19,6 +19,6 @@ default_value:
     value: 1
 default_value_callback: ''
 settings:
-  on_label: 'On'
-  off_label: 'Off'
+  on_label: Zapnuto
+  off_label: Vypnuto
 field_type: boolean

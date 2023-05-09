@@ -19,7 +19,7 @@ provider: null
 plugin: 'facet_block:subject'
 settings:
   id: 'facet_block:subject'
-  label: Subject
+  label: Předmět
   label_display: visible
   provider: facets
   block_id: subject

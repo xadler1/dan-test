@@ -10,8 +10,8 @@ id: node.islandora_object.changed
 field_name: changed
 entity_type: node
 bundle: islandora_object
-label: Changed
-description: 'The time that the node was last edited.'
+label: Změněno
+description: 'Čas, kdy byl uzel naposledy upraven.'
 required: false
 translatable: false
 default_value: {  }

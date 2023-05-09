@@ -43,7 +43,7 @@ tips:
   search-api-index-tracker:
     id: search-api-index-tracker
     plugin: text
-    label: Tracker
+    label: 'Sledování příspěvků'
     weight: 5
     selector: .search-api-index-summary--tracker
     body: 'The tracker used by the index. Only one ("Default") is available by default.'

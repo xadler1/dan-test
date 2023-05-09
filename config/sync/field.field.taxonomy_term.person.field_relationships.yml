@@ -15,7 +15,7 @@ id: taxonomy_term.person.field_relationships
 field_name: field_relationships
 entity_type: taxonomy_term
 bundle: person
-label: Relationships
+label: Vztahy
 description: ''
 required: false
 translatable: true
@@ -42,7 +42,7 @@ settings:
     'schema:funder': Funder
     'schema:knowsAbout': 'Knows about'
     'schema:memberOf': 'Member of'
-    'schema:parent': Parent
+    'schema:parent': Nadřazený
     'schema:relatedTo': 'Related to'
     'schema:sibling': Sibling
     'schema:sponsor': Sponsor

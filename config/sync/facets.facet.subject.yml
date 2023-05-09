@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: TJP2yG8ZBf2x4H9SYx7VkrLBTYmBm2kE9uxA1cbrCas
 id: subject
-name: Subject
+name: Předmět
 weight: -2
 min_count: 1
 missing: false

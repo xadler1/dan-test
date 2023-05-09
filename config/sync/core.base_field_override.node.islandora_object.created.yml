@@ -10,7 +10,7 @@ id: node.islandora_object.created
 field_name: created
 entity_type: node
 bundle: islandora_object
-label: 'Authored on'
+label: 'Vytvořeno dne'
 description: 'The time that the node was created.'
 required: false
 translatable: false

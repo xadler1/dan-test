@@ -10,7 +10,7 @@ id: node.islandora_object.menu_link
 field_name: menu_link
 entity_type: node
 bundle: islandora_object
-label: 'Menu link'
+label: 'Položka menu'
 description: 'Computed menu link for the node (only available during node saving).'
 required: false
 translatable: false

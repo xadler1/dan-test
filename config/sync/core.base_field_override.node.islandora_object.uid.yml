@@ -10,8 +10,8 @@ id: node.islandora_object.uid
 field_name: uid
 entity_type: node
 bundle: islandora_object
-label: 'Authored by'
-description: 'The username of the content author.'
+label: Autor
+description: 'Uživatelské jméno autora obsahu.'
 required: false
 translatable: false
 default_value: {  }

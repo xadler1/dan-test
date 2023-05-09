@@ -36,7 +36,7 @@ tips:
   language-default:
     id: language-default
     plugin: text
-    label: 'Set a language as default'
+    label: 'Nastavit jazyk jako výchozí'
     weight: 4
     selector: .js-form-item-site-default-language
     body: '<p>You can change the default language of the site by choosing one of your configured languages as default. The site will use the default language in situations where no choice is made but a language should be set, for example as the language of the displayed interface.</p>'
@@ -50,6 +50,6 @@ tips:
   language-continue:
     id: language-continue
     plugin: text
-    label: 'Continuing on'
+    label: 'Pokračování na'
     weight: 6
     body: '<p>Now that you have an overview of the "Languages" page, you can continue by:<ul><li><a href="[site:url]admin/config/regional/language/add">Adding a language</a></li><li>Reordering languages</li><li>Editing a language</li><li>Deleting a language</li></ul></p>'

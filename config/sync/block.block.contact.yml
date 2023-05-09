@@ -43,6 +43,6 @@ visibility:
     pages: "/about\r\n/arne-novak\r\n<front>"
   media_source_mimetype:
     id: media_source_mimetype
-    mimetype: ''
     negate: false
     context_mapping: {  }
+    mimetype: ''

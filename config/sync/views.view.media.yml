@@ -78,7 +78,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: Action
+          action_title: Akce
           include_exclude: exclude
           selected_actions: {  }
         thumbnail__target_id:
@@ -381,8 +381,8 @@ display:
           type: boolean
           settings:
             format: custom
-            format_custom_false: Unpublished
-            format_custom_true: Published
+            format_custom_false: Skryto
+            format_custom_true: Zveřejněno
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -403,7 +403,7 @@ display:
           entity_type: media
           entity_field: changed
           plugin_id: field
-          label: Updated
+          label: Aktualizováno
           exclude: false
           alter:
             alter_text: false
@@ -582,18 +582,18 @@ display:
           total_pages: null
           id: 0
           tags:
-            next: 'Next ›'
-            previous: '‹ Previous'
-            first: '« First'
-            last: 'Last »'
+            next: 'Následující ›'
+            previous: '‹ Předchozí'
+            first: '« První'
+            last: 'Poslední »'
           expose:
             items_per_page: false
             items_per_page_label: 'Položek na stránku'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Vše -'
             offset: false
-            offset_label: Offset
+            offset_label: Posun
           quantity: 9
       exposed_form:
         type: basic
@@ -744,7 +744,7 @@ display:
           exposed: true
           expose:
             operator_id: ''
-            label: 'True'
+            label: 'Pravda (True)'
             description: null
             use_operator: false
             operator: status_op
@@ -758,7 +758,7 @@ display:
               authenticated: authenticated
           is_grouped: true
           group_info:
-            label: 'Published status'
+            label: 'Status zveřejnění'
             description: ''
             identifier: status
             optional: true
@@ -769,11 +769,11 @@ display:
             default_group_multiple: {  }
             group_items:
               1:
-                title: Published
+                title: Zveřejněno
                 operator: '='
                 value: '1'
               2:
-                title: Unpublished
+                title: Skryto
                 operator: '='
                 value: '0'
         status_extra:

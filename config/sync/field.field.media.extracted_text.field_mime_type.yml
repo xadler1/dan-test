@@ -11,7 +11,7 @@ id: media.extracted_text.field_mime_type
 field_name: field_mime_type
 entity_type: media
 bundle: extracted_text
-label: 'MIME type'
+label: 'Typ MIME'
 description: ''
 required: false
 translatable: false

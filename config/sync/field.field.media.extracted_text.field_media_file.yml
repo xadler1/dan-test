@@ -13,7 +13,7 @@ id: media.extracted_text.field_media_file
 field_name: field_media_file
 entity_type: media
 bundle: extracted_text
-label: File
+label: Soubor
 description: ''
 required: true
 translatable: false
